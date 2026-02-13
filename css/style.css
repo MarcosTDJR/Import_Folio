@@ -32,11 +32,17 @@ code:hover{
     height: 30%;
 }
 
+#apresentacao0 h1 {
+    font-size: 20px;
+    margin: 10px 100px;
+    padding: 10px;
+    border: 3px solid black;
+}
 
 #apresentacao h1 {
-    font-size: 20px;
-    /* display: inline; */
-    margin: 10px 100px;
+    font-size: 15px;
+    margin: 30px 50px;
+    max-width: 350px;
     padding: 10px;
     border: 3px solid black;
 }
@@ -249,8 +255,23 @@ code:hover{
     font-size: 100px;
 }
 
+#skills{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin: 10px;
+}
+
 #skill{
-    display: inline;
+    display: flexbox;
+    justify-content: center;
+    margin: 5px 20px;
+    min-width: 5%;
+}
+
+#skill-name{
+    display: block;
 }
 
 /* Projeto */
@@ -274,19 +295,24 @@ code:hover{
 }
 
 #yby{
+    display: flex;;
+    justify-content: center;
     text-align: center;
-    margin: 50px 0;
+    margin: 180px 0;
+}
+
+#ybyqr{
+    justify-content: center;
+    text-align: center;
+    margin: 180px 0;
 }
 
 #ybyh{
-    position: absolute;
     top: 100%;
-    right: 25%;
 }
 
 #ybycon{
     position: absolute;
-    right: 40%;
     height: 200px;
     width: 200px;
     animation: sobe 3s infinite;
@@ -294,23 +320,34 @@ code:hover{
 
 @keyframes sobe{
     0%{
-        top: 70%;
+        top: 0%;
     }
     50%{
-        top: 73%
+        top: 3%
     }
     100%{
-        top: 70%;
+        top: 0%;
     }
 }
 
 #yby2{
-    margin: 400px 230px 0 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#yby2_5{
+    display: flex;
+    margin: 200px 0;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 
 #yby2 h1{
     position: absolute;
-    right: 75%;
+    right: 750px;
+    top: 950px;
 }
 
 #tata{
@@ -319,25 +356,23 @@ code:hover{
 }
 
 #arv{
-    position: absolute;
     right: 30%;
-    top: 107%;
 }
 
 #fogo{
+    mix-blend-mode: plus-lighter;
+    margin: -18%;
     position: absolute;
-    right: 22%;
-    top: 100%;
-    height: 400px;
-    width: 400px;
-    rotate: -90deg;
+    right: -10%;
+    height: 500px;
+    width: 500px;
+    rotate: -270deg;
 }
 
 #tatanda{
     position: absolute;
     width: 150px;
     height: 150px;
-    top: 220%;
     animation: anda 10s infinite;
 }
 
@@ -346,28 +381,36 @@ code:hover{
         left: 10%;
     }
     50%{
-        left: 30%;
+        left: 40%;
     }
     100%{
-        left: 50%;
+        left: 70%;
     }
 }
 
-#caipo{
+#caipo_flying{
     position: absolute;
-    right: 20%;
-    top: 225%;
+    animation: roda 18s infinite 2s;
+}
+
+#tata_sprinting{
+    position: absolute;
+    margin-top: 180px;
+    animation: roda 18s infinite 2s;
 }
 
 #yby3{
-    margin: 1000px 230px 0 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 180px 0;
 }
 
 #arv2{
-    position: absolute;
+    /* position: absolute; */
     right: -30%;
-    top: 297%;
-    animation: roda 18s infinite 2s;
+    /* top: 297%; */
+    /* animation: roda 18s infinite 2s; */
 }
 
 #fogo2{
@@ -377,15 +420,15 @@ code:hover{
     height: 400px;
     width: 400px;
     rotate: -90deg;
-    animation: rodaf 18s infinite 2s;
+    /* animation: rodaf 18s infinite 2s; */
 }
 
 @keyframes roda{
     0%{
-        right: -30%
+        left: -30%
     }
     100%{
-        right: 140%
+        left: 140%
     }
 }
 
@@ -399,21 +442,29 @@ code:hover{
 }
 
 
-#arv3{
+/* #arv3{
     position: absolute;
     right: -50%;
     top: 297%;
     animation: roda2 18s infinite 4s;
+} */
+
+#fogos{
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: space-around;
+    align-items: flex-end;
 }
 
 #fogo3{
-    position: absolute;
-    right: -58%;
-    top: 290%;
-    height: 400px;
-    width: 400px;
-    rotate: -90deg;
-    animation: rodaf2 18s infinite 4s;
+    mix-blend-mode: color-dodge;
+    height: 500px;
+    width: 500px;
+    rotate: -270deg;
+    /* animation: rodaf2 18s infinite 4s; */
 }
 
 @keyframes roda2{
@@ -435,7 +486,10 @@ code:hover{
 }
 
 #yby4{
-    margin: 500px 230px 0 230px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
 }
 
 #yby4 h1{
@@ -460,7 +514,7 @@ h4{
 }
 
 footer{
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     padding: 5px;
     border-top: solid #888 1px;
