@@ -14,7 +14,8 @@
 </head>
 
 <body>
-    <audio src="audios/8-bit-background-music-for-arcade-game-come-on-mario-164702.mp3" autoplay></audio>
+    <audio id="bgAudio" src="audios/8-bit-background-music-for-arcade-game-come-on-mario-164702.mp3" autoplay></audio>
+    <button id="audio-toggle" title="Ligar/Desligar Música">🔊</button>
     <!-- <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="0" height="0">
         <defs>
             <filter id="pixelate" x="0" y="0">
@@ -26,13 +27,18 @@
             </filter>
         </defs>
     </svg> -->
+    <div id="tampa">
+        <div class="tampa-content">
+            <h1 id="pulsa-title">Caríssimo viajante, aprecio demasiadamente sua vontade de saber mais sobre mim!</h1>
+            <h1 id="brilha">EU SOU</h1>
+        </div>
+    </div>
     <div id="eu">
-        <h1 id="pulsa">Caríssimo viajante, aprecio demasiadamente sua vontade de saber mais sobre mim!</h1><br>
-        <h1 id="brilha">EU SOU</h1><br>
         <img id="ft-eu" src="images/eurebaixado.png" alt="">
         <h1 id="brilha">Marcos Teixeira Dutra Junior</h1>
-        <h1 id="pulsa">Apesar de ser apenas um estudante, atualmente cursando </h1><h2 id="brilha2">Desenvolvimento de
-                Software Multiplataforma na Fatec Zona Leste</h2><br>
+        <h1 id="pulsa">Apesar de ser apenas um estudante, atualmente cursando </h1>
+        <h2 id="brilha2">Desenvolvimento de
+            Software Multiplataforma na Fatec Zona Leste</h2><br>
         <h1 id="pulsa">também sou o maior amante de tecnologia, robótica, automação<br>
             inteligência artificial e machine learning, aspirante em <br> inovação, astronomia e <br>
             biologia</h1>
@@ -41,41 +47,121 @@
             Web & App Designer, Game Designer, Gray & White Hat, Analista de SOC, Manutencista de PC<br>
             Manutencista de Redes de Computadores, Técnico em Eletrônica, Hardwares e Periféricos<br>
             Inovador, Criativo, Analista, Ético, Comunicativo, Proativo, Calmo, Crítico Assertivo<br>
-                e um eterno aprendiz, sempre buscando me aprimorar e aprender coisas novas!</h1><br>
+            e um eterno aprendiz, sempre buscando me aprimorar e aprender coisas novas!</h1><br>
         <h1 id="pulsa">Dentre as linguagens, tecnologias, ferramentas, e Frameworks das quais<br>
             tenho proficiência, destaco-me principalmente em:<br><b>
         </h1><br>
         <div id="skills">
-        <div id="skill"><img src="images/icons8-java-50.png" alt=""><h2 id="skill-name">Java</h2><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""></div>
-        <div id="skill"><img src="images/icons8-c-sharp-logo-50.png" alt=""><h2 id="skill-name">C#</h2><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""></div>
-        <div id="skill"><img src="images/icons8-python-50.png" alt=""><h2 id="skill-name">Python</h2><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""></div>
-        <div id="skill"><img src="images/icons8-c++-50.png" alt=""><h2 id="skill-name">C++</h2><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""></div>
-        <div id="skill"><img src="images/icons8-kotlin-50.png" alt=""><h2 id="skill-name">Kotlin</h2><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""></div>
-        <div id="skill"><img src="images/icons8-ruby-programming-language-50.png" alt=""><h2 id="skill-name">Ruby</h2><img src="images/icons8-star-32.png" alt=""></div>
-        <div id="skill"><img src="images/icons8-javascript-logo-50.png" alt=""><h2 id="skill-name">JavaScript</h2><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""></div>
-        <div id="skill"><img src="images/icons8-typescript-50.png" alt=""><h2 id="skill-name">TypeScript</h2><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""></div>
-        <div id="skill"><img src="images/icons8-php-logo-50.png" alt=""><h2 id="skill-name">PHP</h2><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""></div>
-        <div id="skill"><img src="images/icons8-.net-framework-48.png" alt=""><h2 id="skill-name">.NET</h2><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""></div>
-        <div id="skill"><img src="images/icons8-node-js-32.png" alt=""><h2 id="skill-name">NodeJs</h2><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""></div>
-        <div id="skill"><img src="images/icons8-react-60.png" alt=""><h2 id="skill-name">React</h2><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""></div>
-        <div id="skill"><img src="images/icons8-vue-js-48.png" alt=""><h2 id="skill-name">Vue</h2><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""></div>
-        <div id="skill"><img src="images/icons8-golang-50.png" alt=""><h2 id="skill-name">GO</h2><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""></div>
-        <div id="skill"><img src="images/icons8-angularjs-50.png" alt=""><h2 id="skill-name">Angular</h2><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""></div>
-        <div id="skill"><img src="images/icons8-html-50.png" alt=""><h2 id="skill-name">HTML</h2><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""></div>
-        <div id="skill"><img src="images/icons8-css-logo-50.png" alt=""><h2 id="skill-name">CSS</h2><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""></div>
-        <div id="skill"><img src="images/icons8-microsoft-sql-server-48.png" alt=""><h2 id="skill-name">Microsoft SQL Server</h2><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""></div>
-        <div id="skill"><img src="images/icons8-postgresql-50.png" alt=""><h2 id="skill-name">PostgreSQL</h2><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""></div>
-        <div id="skill"><img src="images/icons8-mysql-logo-50.png" alt=""><h2 id="skill-name">MySQL</h2><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""></div>
-        <div id="skill"><img src="images/icons8-mongo-db-48.png" alt=""><h2 id="skill-name">MongoDB</h2><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""></div>
-        <div id="skill"><img src="images/icons8-unity-50.png" alt=""><h2 id="skill-name">Unity</h2><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""></div>
-        <div id="skill"><img src="images/icons8-microsoft-office-50.png" alt=""><h2 id="skill-name">Microsoft Office</h2><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""></div>
-        <div id="skill"><img src="images/icons8-adobe-photoshop-50.png" alt=""><h2 id="skill-name">Adobe Photoshop</h2><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""></div>
-        <div id="skill"><img src="images/icons8-git-50.png" alt=""><h2 id="skill-name">Git</h2><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""></div>
-        <div id="skill"><img src="images/icons8-github-50.png" alt=""><h2 id="skill-name">Github</h2><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""></div>
+            <div id="skill"><img src="images/icons8-java-50.png" alt="">
+                <h2 id="skill-name">Java</h2><img src="images/icons8-star-32.png" alt=""><img
+                    src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt="">
+            </div>
+            <div id="skill"><img src="images/icons8-c-sharp-logo-50.png" alt="">
+                <h2 id="skill-name">C#</h2><img src="images/icons8-star-32.png" alt=""><img
+                    src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt="">
+            </div>
+            <div id="skill"><img src="images/icons8-python-50.png" alt="">
+                <h2 id="skill-name">Python</h2><img src="images/icons8-star-32.png" alt=""><img
+                    src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt="">
+            </div>
+            <div id="skill"><img src="images/icons8-c++-50.png" alt="">
+                <h2 id="skill-name">C++</h2><img src="images/icons8-star-32.png" alt=""><img
+                    src="images/icons8-star-32.png" alt="">
+            </div>
+            <div id="skill"><img src="images/icons8-kotlin-50.png" alt="">
+                <h2 id="skill-name">Kotlin</h2><img src="images/icons8-star-32.png" alt=""><img
+                    src="images/icons8-star-32.png" alt="">
+            </div>
+            <div id="skill"><img src="images/icons8-ruby-programming-language-50.png" alt="">
+                <h2 id="skill-name">Ruby</h2><img src="images/icons8-star-32.png" alt="">
+            </div>
+            <div id="skill"><img src="images/icons8-javascript-logo-50.png" alt="">
+                <h2 id="skill-name">JavaScript</h2><img src="images/icons8-star-32.png" alt=""><img
+                    src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt="">
+            </div>
+            <div id="skill"><img src="images/icons8-typescript-50.png" alt="">
+                <h2 id="skill-name">TypeScript</h2><img src="images/icons8-star-32.png" alt=""><img
+                    src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt="">
+            </div>
+            <div id="skill"><img src="images/icons8-php-logo-50.png" alt="">
+                <h2 id="skill-name">PHP</h2><img src="images/icons8-star-32.png" alt=""><img
+                    src="images/icons8-star-32.png" alt="">
+            </div>
+            <div id="skill"><img src="images/icons8-.net-framework-48.png" alt="">
+                <h2 id="skill-name">.NET</h2><img src="images/icons8-star-32.png" alt=""><img
+                    src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt="">
+            </div>
+            <div id="skill"><img src="images/icons8-node-js-32.png" alt="">
+                <h2 id="skill-name">NodeJs</h2><img src="images/icons8-star-32.png" alt=""><img
+                    src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt="">
+            </div>
+            <div id="skill"><img src="images/icons8-react-60.png" alt="">
+                <h2 id="skill-name">React</h2><img src="images/icons8-star-32.png" alt=""><img
+                    src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt="">
+            </div>
+            <div id="skill"><img src="images/icons8-vue-js-48.png" alt="">
+                <h2 id="skill-name">Vue</h2><img src="images/icons8-star-32.png" alt=""><img
+                    src="images/icons8-star-32.png" alt="">
+            </div>
+            <div id="skill"><img src="images/icons8-golang-50.png" alt="">
+                <h2 id="skill-name">GO</h2><img src="images/icons8-star-32.png" alt=""><img
+                    src="images/icons8-star-32.png" alt="">
+            </div>
+            <div id="skill"><img src="images/icons8-angularjs-50.png" alt="">
+                <h2 id="skill-name">Angular</h2><img src="images/icons8-star-32.png" alt=""><img
+                    src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt="">
+            </div>
+            <div id="skill"><img src="images/icons8-html-50.png" alt="">
+                <h2 id="skill-name">HTML</h2><img src="images/icons8-star-32.png" alt=""><img
+                    src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""><img
+                    src="images/icons8-star-32.png" alt="">
+            </div>
+            <div id="skill"><img src="images/icons8-css-logo-50.png" alt="">
+                <h2 id="skill-name">CSS</h2><img src="images/icons8-star-32.png" alt=""><img
+                    src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt=""><img
+                    src="images/icons8-star-32.png" alt="">
+            </div>
+            <div id="skill"><img src="images/icons8-microsoft-sql-server-48.png" alt="">
+                <h2 id="skill-name">Microsoft SQL Server</h2><img src="images/icons8-star-32.png" alt=""><img
+                    src="images/icons8-star-32.png" alt="">
+            </div>
+            <div id="skill"><img src="images/icons8-postgresql-50.png" alt="">
+                <h2 id="skill-name">PostgreSQL</h2><img src="images/icons8-star-32.png" alt=""><img
+                    src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt="">
+            </div>
+            <div id="skill"><img src="images/icons8-mysql-logo-50.png" alt="">
+                <h2 id="skill-name">MySQL</h2><img src="images/icons8-star-32.png" alt=""><img
+                    src="images/icons8-star-32.png" alt="">
+            </div>
+            <div id="skill"><img src="images/icons8-mongo-db-48.png" alt="">
+                <h2 id="skill-name">MongoDB</h2><img src="images/icons8-star-32.png" alt=""><img
+                    src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt="">
+            </div>
+            <div id="skill"><img src="images/icons8-unity-50.png" alt="">
+                <h2 id="skill-name">Unity</h2><img src="images/icons8-star-32.png" alt=""><img
+                    src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt="">
+            </div>
+            <div id="skill"><img src="images/icons8-microsoft-office-50.png" alt="">
+                <h2 id="skill-name">Microsoft Office</h2><img src="images/icons8-star-32.png" alt=""><img
+                    src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt="">
+            </div>
+            <div id="skill"><img src="images/icons8-adobe-photoshop-50.png" alt="">
+                <h2 id="skill-name">Adobe Photoshop</h2><img src="images/icons8-star-32.png" alt=""><img
+                    src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt="">
+            </div>
+            <div id="skill"><img src="images/icons8-git-50.png" alt="">
+                <h2 id="skill-name">Git</h2><img src="images/icons8-star-32.png" alt=""><img
+                    src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt="">
+            </div>
+            <div id="skill"><img src="images/icons8-github-50.png" alt="">
+                <h2 id="skill-name">Github</h2><img src="images/icons8-star-32.png" alt=""><img
+                    src="images/icons8-star-32.png" alt=""><img src="images/icons8-star-32.png" alt="">
+            </div>
 
         </div>
         <h1 id="pulsa">Agradeço enormemente o tempo e paciência dispostos a conhecer-me melhor. <br>
-            agora o(a) convido a conferir alguns dos meus projetos<br><br> Antes, se desejar entrar em contato, algumas de minhas redes:</h1><br><br>
+            agora o(a) convido a conferir alguns dos meus projetos<br><br> Antes, se desejar entrar em contato, algumas
+            de minhas redes:</h1><br><br>
         <div id="redes">
             <a href="https://mail.google.com/mail/?view=cm&fs=1&to=markdustlab@gmail.com"><img
                     src="images/icons8-email-50.png" alt="">
@@ -107,19 +193,44 @@
         <br><br>
         <h1 id="pulsa">Pressione a seta no canto inferior direito para conhecer alguns de meus feitos!</h1>
     </div>
-    <div id="tampa">
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis recusandae dolorem velit, aspernatur
-            officiis, molestias optio debitis eius non ad alias earum rem deleniti, laborum aperiam! Accusamus nulla
-            excepturi, dolorum atque consequuntur consequatur beatae sed nemo voluptas modi optio nobis laborum at alias
-            possimus quo sit. Vitae beatae atque sint hic. Dolorem qui enim quaerat atque itaque, mollitia soluta natus
-            expedita, asperiores neque quia. Consequuntur blanditiis laborum explicabo expedita, iure hic non eos
-            dignissimos culpa possimus at magni quo deleniti architecto saepe labore? Ipsa odio, repellat corporis
-            officiis, magnam a cum tenetur ad quas nemo asperiores possimus consectetur. Nulla, iste.</h1>
-    </div>
     <div id="btn-div2">
-        <a href="maisobre.html">--></a>
+        <a href="ybypora.html">--></a>
     </div>
+    <script>
+        // Lógica da Tampa (Overlay de Suspense)
+        document.addEventListener('DOMContentLoaded', function() {
+            const tampa = document.getElementById('tampa');
+            
+            // Esconder a tampa após 3.5 segundos
+            setTimeout(function() {
+                tampa.classList.add('hidden');
+            }, 3500);
+            
+            // Permitir fechar a tampa ao clicar nela
+            tampa.addEventListener('click', function() {
+                tampa.classList.add('hidden');
+            });
+            
+            // Controle de Áudio
+            const audioToggle = document.getElementById('audio-toggle');
+            const bgAudio = document.getElementById('bgAudio');
+            
+            if (bgAudio) {
+                audioToggle.addEventListener('click', function() {
+                    if (bgAudio.paused) {
+                        bgAudio.play();
+                        audioToggle.textContent = '🔊';
+                        audioToggle.classList.remove('muted');
+                    } else {
+                        bgAudio.pause();
+                        audioToggle.textContent = '🔇';
+                        audioToggle.classList.add('muted');
+                    }
+                });
+            }
+        });
+    </script>
 </body>
-<!-- Todos os direitos reservados - Marcos Teixeira Dutra Junior, 2024 -->
+<!-- Todos os direitos reservados - Marcos Teixeira Dutra Junior, 2026 -->
 
 </html>

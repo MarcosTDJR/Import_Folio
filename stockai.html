@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>StockAI - Adega Ops</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="stockai">
+	<audio id="bgAudio" src="audios/powerUp.wav" autoplay></audio>
+	<button id="audio-toggle" title="Ligar/Desligar Música">🔊</button>
+
+	<header class="stockai-hero">
+		<div class="hero-top">
+			<span class="stockai-badge">ADEGA OPS</span>
+			<span class="stockai-tag">Missao: Inventario Total</span>
+		</div>
+		<div class="hero-grid">
+			<div>
+				<h1 class="stockai-title">StockAI</h1>
+				<p class="stockai-subtitle">Aplicacao web feita para dominar o inventario de uma adega que precisava de ordem, previsibilidade e controle em tempo real.</p>
+				<div class="hero-stats">
+					<div class="stat-card">
+						<h3>Nivel Adega</h3>
+						<p>Controle + Sazonalidade + Giro</p>
+					</div>
+					<div class="stat-card">
+						<h3>Modo Boss</h3>
+						<p>Perdas, divergencias e rupturas</p>
+					</div>
+					<div class="stat-card">
+						<h3>Power-Ups</h3>
+						<p>Alertas, relatórios, previsoes</p>
+					</div>
+				</div>
+				<div class="hero-buttons">
+					<a class="stockai-cta" href="https://github.com/DreyMendonca/stock" target="_blank">Ver repositorio</a>
+					<a class="stockai-ghost" href="sobremi.html">Voltar ao portfolio</a>
+				</div>
+			</div>
+			<div class="hero-console">
+				<div class="console-screen">
+					<div class="console-title">Painel de Missao</div>
+					<ul>
+						<li>Checkpoint 01: Cadastro inteligente de produtos</li>
+						<li>Checkpoint 02: Entradas e saidas em tempo real</li>
+						<li>Checkpoint 03: Alerta de estoque minimo</li>
+						<li>Checkpoint 04: Curva ABC e sazonalidade</li>
+						<li>Checkpoint 05: Relatorios para compras</li>
+					</ul>
+				</div>
+				<div class="console-bars">
+					<div class="console-bar">
+						<span>Integridade</span>
+						<div class="bar-track"><span style="width: 92%"></span></div>
+					</div>
+					<div class="console-bar">
+						<span>Precisao</span>
+						<div class="bar-track"><span style="width: 88%"></span></div>
+					</div>
+					<div class="console-bar">
+						<span>Giro</span>
+						<div class="bar-track"><span style="width: 76%"></span></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="stockai-section">
+		<h2 class="section-title">O desafio da adega</h2>
+		<p class="section-text">O StockAI nasceu para uma adega com dificuldades de gerenciamento, onde perdas, divergencias e compras imprecisas travavam o crescimento. A proposta foi transformar o controle de estoque em uma jornada clara, com metas, alertas e feedback visual.</p>
+	</section>
+
+	<section class="stockai-section">
+		<h2 class="section-title">Habilidades desbloqueadas</h2>
+		<div class="card-grid">
+			<article class="stockai-card">
+				<h3>Radar de estoque</h3>
+				<p>Monitoramento por niveis e alertas inteligentes para agir antes da ruptura.</p>
+			</article>
+			<article class="stockai-card">
+				<h3>Mapeamento de entradas</h3>
+				<p>Registro rapido de compras, fornecedores e lotes com historico rastreavel.</p>
+			</article>
+			<article class="stockai-card">
+				<h3>Saidas com rastreio</h3>
+				<p>Controle de vendas, perdas e movimentacoes para enxergar o giro real.</p>
+			</article>
+			<article class="stockai-card">
+				<h3>Relatorios de poder</h3>
+				<p>Dashboards para compras, curva ABC e previsao de demanda.</p>
+			</article>
+		</div>
+	</section>
+
+	<section class="stockai-section">
+		<h2 class="section-title">Mapa de missoes</h2>
+		<div class="mission-path">
+			<div class="mission-step">
+				<span class="mission-label">Nivel 01</span>
+				<h3>Catalogo Base</h3>
+				<p>Cadastro padronizado com categorias, volumes e precos.</p>
+			</div>
+			<div class="mission-step">
+				<span class="mission-label">Nivel 02</span>
+				<h3>Fluxo Vivo</h3>
+				<p>Entradas e saidas sincronizadas para evitar divergencias.</p>
+			</div>
+			<div class="mission-step">
+				<span class="mission-label">Nivel 03</span>
+				<h3>Alertas XP</h3>
+				<p>Gatilhos de estoque minimo, excesso e sazonalidade.</p>
+			</div>
+			<div class="mission-step">
+				<span class="mission-label">Nivel 04</span>
+				<h3>Estrategia Adega</h3>
+				<p>Relatorios para compras assertivas e rotacao saudavel.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="stockai-section">
+		<h2 class="section-title">Painel de inventario</h2>
+		<div class="inventory-board">
+			<div class="inventory-row header">
+				<span>Produto</span>
+				<span>Categoria</span>
+				<span>Estoque</span>
+				<span>Status</span>
+			</div>
+			<div class="inventory-row">
+				<span>Reserva Ruby 2019</span>
+				<span>Tinto</span>
+				<span>32</span>
+				<span class="status safe">Seguro</span>
+			</div>
+			<div class="inventory-row">
+				<span>Branco Aurora</span>
+				<span>Branco</span>
+				<span>08</span>
+				<span class="status alert">Alerta</span>
+			</div>
+			<div class="inventory-row">
+				<span>Espumante Sol</span>
+				<span>Espumante</span>
+				<span>05</span>
+				<span class="status danger">Critico</span>
+			</div>
+		</div>
+	</section>
+
+	<section class="stockai-section">
+		<h2 class="section-title">Stack e equipamentos</h2>
+		<p class="section-text">Arquitetura pensada para velocidade de cadastro, confiabilidade e insights acionaveis.</p>
+		<div class="tech-categories">
+			<div class="tech-category">
+				<h3>🎨 Frontend</h3>
+				<ul class="tech-list">
+					<li><strong>HTML5 / CSS3</strong> - Fundação responsiva e moderna</li>
+					<li><strong>JavaScript</strong> - Interatividade em tempo real</li>
+					<li><strong>Pixelify Sans</strong> - Tipografia customizada</li>
+					<li><strong>Bootstrap 5</strong> - Framework para responsividade</li>
+				</ul>
+			</div>
+			<div class="tech-category">
+				<h3>⚙️ Backend & Infraestrutura</h3>
+				<ul class="tech-list">
+					<li><strong>API de Inventário</strong> - Endpoints para CRUD</li>
+					<li><strong>Banco Relacional</strong> - Estrutura de dados normalizada</li>
+					<li><strong>Logs de Movimentação</strong> - Rastreabilidade completa</li>
+					<li><strong>Auth & Perfis</strong> - Controle de acesso granular</li>
+				</ul>
+			</div>
+			<div class="tech-category">
+				<h3>📊 Dashboards & Relatórios</h3>
+				<ul class="tech-list">
+					<li><strong>Dashboards Gerenciais</strong> - Visualização em tempo real</li>
+					<li><strong>Curva ABC</strong> - Análise de Pareto para produtos</li>
+					<li><strong>Alertas Inteligentes</strong> - Notificações de eventos críticos</li>
+					<li><strong>Previsões de Demanda</strong> - Sazonalidade e tendências</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<section class="stockai-section developers-section">
+		<h2 class="section-title">👥 Equipe de Desenvolvimento</h2>
+		<div class="developers-grid">
+			<a href="https://github.com/nandamyrita" target="_blank" class="developer-card">
+				<img src="https://avatars.githubusercontent.com/u/160313240?v=4" alt="nandamyrita" class="dev-avatar">
+				<h3>🌟 nandamyrita</h3>
+				<p class="dev-role">Full-Stack Developer</p>
+				<span class="dev-handle">@nandamyrita</span>
+			</a>
+			<a href="https://github.com/DreyMendonca" target="_blank" class="developer-card">
+				<img src="https://avatars.githubusercontent.com/u/110138072?v=4" alt="DreyMendonca" class="dev-avatar">
+				<h3>💻 DreyMendonca</h3>
+				<p class="dev-role">Back-End Developer</p>
+				<span class="dev-handle">@DreyMendonca</span>
+			</a>
+			<a href="https://github.com/kaikdev" target="_blank" class="developer-card">
+				<img src="https://avatars.githubusercontent.com/u/102658086?v=4" alt="kaikdev" class="dev-avatar">
+				<h3>⚙️ kaikdev</h3>
+				<p class="dev-role">Back-End Developer</p>
+				<span class="dev-handle">@kaikdev</span>
+			</a>
+			<a href="https://github.com/vasquesgabriel91" target="_blank" class="developer-card">
+				<img src="https://avatars.githubusercontent.com/u/154822932?v=4" alt="Gabriel Vasques" class="dev-avatar">
+				<h3>🔧 Gabriel Vasques</h3>
+				<p class="dev-role">Back-End Developer</p>
+				<span class="dev-handle">@vasquesgabriel91</span>
+			</a>
+			<a href="https://github.com/MarcosTDJR" target="_blank" class="developer-card">
+				<img src="https://avatars.githubusercontent.com/u/124621395?v=4" alt="Marcos Teixeira" class="dev-avatar">
+				<h3>📱 Marcos Teixeira</h3>
+				<p class="dev-role">Full-Stack Developer</p>
+				<span class="dev-handle">@MarcosTDJR</span>
+			</a>
+			<a href="https://github.com/robertfullstack" target="_blank" class="developer-card">
+				<img src="https://avatars.githubusercontent.com/u/110982032?v=4" alt="Robert Guimarrães" class="dev-avatar">
+				<h3>🚀 Robert Guimarrães</h3>
+				<p class="dev-role">Back-End Developer</p>
+				<span class="dev-handle">@robertfullstack</span>
+			</a>
+		</div>
+	</section>
+
+	<section class="stockai-section cta-zone">
+		<h2 class="section-title">Pronto para subir de nivel?</h2>
+		<p class="section-text">StockAI transforma o caos do estoque em estrategia. Deixe a adega preparada para crescer com controle total.</p>
+		<div class="hero-buttons">
+			<a class="stockai-cta" href="https://github.com/DreyMendonca/stock" target="_blank">Explorar codigo</a>
+			<a class="stockai-ghost" href="index.html">Voltar ao inicio</a>
+		</div>
+	</section>
+
+	<div id="btn-div2">
+		<a href="index.html">←</a>
+	</div>
+
+	<footer class="stockai-footer">
+		<h3>&copy Todos os direitos reservados, 2026</h3>
+		<h3 id="prj"><a href="https://github.com/DreyMendonca/stock" target="_blank">Visite o repositorio do StockAI</a></h3>
+	</footer>
+	<script>
+		document.addEventListener('DOMContentLoaded', function() {
+			const audioToggle = document.getElementById('audio-toggle');
+			const bgAudio = document.getElementById('bgAudio');
+			
+			if (bgAudio) {
+				audioToggle.addEventListener('click', function() {
+					if (bgAudio.paused) {
+						bgAudio.play();
+						audioToggle.textContent = '🔊';
+						audioToggle.classList.remove('muted');
+					} else {
+						bgAudio.pause();
+						audioToggle.textContent = '🔇';
+						audioToggle.classList.add('muted');
+					}
+				});
+			}
+		});
+	</script>
+</body>
+
+</html>
